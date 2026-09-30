@@ -1,0 +1,14 @@
+# One-click deploy on Render: New → Blueprint → point at this repo.
+services:
+  - type: web
+    name: mg-connect
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false      # set in the Render dashboard, never committed
+      - key: CLAUDE_MODEL
+        value: claude-opus-5-5
+      - key: CLAUDE_EFFORT
+        value: medium

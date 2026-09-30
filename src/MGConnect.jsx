@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 
-import signage from "./assets/signage.svg"; // placeholder — swap for the real signage.jpg
+import signage from "./assets/signage.jpg";
 import crest from "./assets/crest.png";
 import imgGala from "./assets/station-gala.jpg";
 import imgBreakfast from "./assets/station-breakfast.jpg";

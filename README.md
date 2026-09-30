@@ -269,7 +269,5 @@ but not the proxy. Only use one if you don't need Claude.
 
 ### Assets still to replace
 
-`src/assets/signage.svg` is a placeholder for the sign-in image (`signage.jpg`
-was not supplied). The station photos and crest in `src/assets/` are the
-320×150 previews that were available; replace them with full-resolution files
-under the same names.
+The station photos and crest in `src/assets/` are the 320×150 previews that
+were available; replace them with full-resolution files under the same names.
